@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="utf-8">
+   <title>Lab 04</title>
+   <link rel="stylesheet" href="./css/reset.css" />
+   <link rel="stylesheet" href="./css/Lab04.css" />
+</head>
+<body>
+<header>
+     <h1>Share Your Travels</h1>
+     <p>let us know where you've been</p>
+</header>
+<main>
+   <section>
+   <form  method="post" action="http://www.randyconnolly.com/tests/process.php">
+   <fieldset>
+   <legend>PHOTO DETAIS</legend>
+   <table>
+   <tr>
+   <td colspan="2">
+   <p>
+   <label>Title</label><br/>
+   <input type="text" name="Title" placeholder="Give your photo a descriptive name"/>
+   </p>
+   <p>
+   <label>Description</label><br/>
+   <input type="text" row="5" name="Title" placeholder="Adding a rich description will help with search results"/>
+   </p>
+   </td>
+   </tr>
+   <tr>
+   <td>
+   <label>Continent</label><br/>
+   <select name="Continent">
+   <option>Choose continent</option>
+   </select><br/>
+   <label>Country</label><br/>
+   <select name="Country">
+   <option>Choose country</option>
+   </select><br/>
+   <label>City</label><br/>
+   <input type="text" name="City"/>
+   </td> 
+   <td>
+   <div class="box">
+   <label>Copyright?</label><br/>
+   <input type="radio" name="Copyright?" value="1"/>All right reserved<br/>
+   <input type="radio" name="Copyright?" value="2" checked />Creative Commons<br/>
+   </div>
+   <div class="box">
+   <label>Creative Commons Types</label><br/>
+   <input type="checkbox" name="Creative Commons Types" value="1"/>Attribution<br/>
+   <input type="checkbox" name="Creative Commons Types" value="2"/>Noncommercial<br/>
+   <input type="checkbox" name="Creative Commons Types" value="3"/>No Derivative Works<br/>
+   </div>
+   </td>
+   </tr>
+   <tr>
+   <td>
+   <p>I accept the software license<input type="checkbox" name="aaaa"/></p>
+   </td>
+   </tr>
+   <tr>
+   <td>
+   <label>Rate this photo:</label><br/>
+   <input type="number" name="Rate this photo:"/><br/>
+   <label>Color Collection:</label><br
+   <input type="color" name="Color Collection:"/>
+   </td>
+   <td>
+   <label>Date Taken:</label><br/>
+   <input type="data" name="Date Taken:"/><br/>
+   <label>Time Taken:</label><br>
+   <input type="time" name="Time Taken:"/><br/>
+   </td>
+   </tr>
+   <tr>
+   <td colspan="2">
+   <div class="rectangle">
+   <button class="rounded" type="submit" name="bbbbb">提交</button>
+   <button class="rounded" type ="reset" name="ccccc">Clear Form</button>
+   </div>
+   </td>
+   </tr>
+   </table>
+   </fieldset>
+   </form>
+   </section>
+</main>  
+</body>
+</html>
